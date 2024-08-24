@@ -12,7 +12,7 @@ public class PermissionCheck {
 	private static void Check(String path) {
 		File file=new File(path);
 		if(file.canRead()) {
-			System.out.println("Specified file has Read permission");
+			System.out.println("Read permission is granted");
 		} else {
 			System.out.println("Specified file not has Read permission");
 		}
